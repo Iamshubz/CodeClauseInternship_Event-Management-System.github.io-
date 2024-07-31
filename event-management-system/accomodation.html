@@ -1,0 +1,44 @@
+<!-- Accommodation Services Page -->
+<link rel="stylesheet" href="accomodation.css" />
+<link rel="stylesheet" href="accomodation.js" />
+<header>
+    <a href="index.html" class="home-btn">Home</a>
+</header>
+<div class="accommodation-services-container">
+    <h1>Accommodation Services</h1>
+    <section class="hotel-search">
+      <h2>Search Hotels</h2>
+      <form id="hotel-search-form">
+        <input type="text" id="hotel-search-input" placeholder="Search hotels by name or location...">
+        <button type="submit">Search</button>
+      </form>
+      <div id="hotel-search-results"></div>
+    </section>
+    <section class="hotel-list">
+      <h2>Recommended Hotels</h2>
+      <ul id="hotel-list-container">
+        <!-- list of hotels will be populated dynamically using JavaScript -->
+      </ul>
+    </section>
+    <section class="room-booking">
+      <h2>Room Booking</h2>
+      <form id="room-booking-form">
+        <label for="hotel-select">Select Hotel:</label>
+        <select id="hotel-select">
+          <!-- list of hotels will be populated dynamically using JavaScript -->
+        </select>
+        <label for="room-type">Room Type:</label>
+        <select id="room-type">
+          <option value="">Select Room Type</option>
+          <option value="single">Single</option>
+          <option value="double">Double</option>
+          <option value="suite">Suite</option>
+        </select>
+        <label for="check-in">Check-in:</label>
+        <input type="date" id="check-in">
+        <label for="check-out">Check-out:</label>
+        <input type="date" id="check-out">
+        <button type="submit">Book Room</button>
+      </form>
+    </section>
+  </div>

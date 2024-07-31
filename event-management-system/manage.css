@@ -1,0 +1,138 @@
+
+body {
+    background-image: url('images/register\ now\ bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  
+  .home-btn {
+    background-color: #f35110; /* Orange color */
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    left: 50%;
+  }
+  
+  .home-btn:hover {
+    background-color: #f34713; /* Darker orange color on hover */
+  }
+  
+.manage-event-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* light gray */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db; /* blue */
+  }
+  
+  .event-details {
+    margin-bottom: 20px;
+    background-color: #f2f2f2; /* light gray */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-details li {
+    margin-bottom: 10px;
+  }
+  
+  .event-details label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #666; /* dark gray */
+  }
+  
+  .registrations {
+    margin-bottom: 20px;
+  }
+  
+  #registrations-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  #registrations-table th, #registrations-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f9f9; /* light gray */
+  }
+  
+  #registrations-table th {
+    background-color: #3498db; /* blue */
+    color: #fff;
+  }
+  
+  .communication {
+    margin-bottom: 20px;
+  }
+  
+  #communication-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #send-button {
+    background-color: #4CAF50; /* green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #3e8e41; /* dark green */
+  }
+  
+  #send-button:active {
+    background-color: #2ecc71; /* light green */
+  }
+  
+  /* added styles to add space between registrations */
+  .registrations tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .registrations tr:last-child {
+    border-bottom: none;
+  }
+  
+  .registrations td {
+    padding-bottom: 10px;
+  }

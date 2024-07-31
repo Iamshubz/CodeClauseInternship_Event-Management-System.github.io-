@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="catering.css" />
+<link rel="stylesheet" href="catering.js" />
+<header>
+    <a href="index.html" class="home-btn">Home</a>
+</header>
+<body>
+<!-- Add the video element to your HTML -->
+<video id="background-video" autoplay loop muted>
+    <source src="images/3122106-hd_1920_1080_25fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+<!-- Catering Services Page -->
+<div class="catering-services-container">
+    <h1>Catering Services</h1>
+    <section class="catering-packages">
+      <h2>Catering Packages</h2>
+      <ul id="catering-packages-list">
+        <!-- list of catering packages will be populated dynamically using JavaScript -->
+      </ul>
+    </section>
+    <section class="custom-catering">
+      <h2>Custom Catering</h2>
+      <form id="custom-catering-form">
+        <label for="event-type">Event Type:</label>
+        <select id="event-type">
+          <option value="">Select Event Type</option>
+          <option value="wedding">Wedding</option>
+          <option value="corporate">Corporate</option>
+          <option value="birthday">Birthday</option>
+        </select>
+        <label for="guest-count">Number of Guests:</label>
+        <input type="number" id="guest-count" min="1" max="1000">
+        <label for="cuisine">Cuisine:</label>
+        <select id="cuisine">
+          <option value="">Select Cuisine</option>
+          <option value="italian">Italian</option>
+          <option value="indian">Indian</option>
+          <option value="chinese">Chinese</option>
+        </select>
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" min="100" max="10000">
+        <button type="submit">Get Quote</button>
+      </form>
+    </section>
+    <section class="menu">
+      <h2>Menu</h2>
+      <ul id="menu-list">
+        <!-- list of menu items will be populated dynamically using JavaScript -->
+      </ul>
+    </section>
+  </div>

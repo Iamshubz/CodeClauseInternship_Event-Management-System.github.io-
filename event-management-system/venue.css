@@ -1,0 +1,84 @@
+
+body {
+    background-image: url('images/venue.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  
+  .home-btn {
+    background-color: #f35110; /* Orange color */
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    left: 50%;
+  }
+  
+  .home-btn:hover {
+    background-color: #f34713; /* Darker orange color on hover */
+  }
+  
+
+.venue-selection-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .venue-search {
+    margin-bottom: 20px;
+  }
+  
+  #venue-search-form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #venue-search-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  #venue-search-results {
+    margin-top: 10px;
+  }
+  
+  .venue-list {
+    margin-bottom: 20px;
+  }
+  
+  #venue-list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #venue-list-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #venue-list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  #venue-list-container li:hover {
+    background-color: #f5f5f5;
+  }

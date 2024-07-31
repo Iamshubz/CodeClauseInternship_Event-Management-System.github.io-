@@ -1,0 +1,35 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now | Shubhx</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-btn">Home</a>
+    </header>
+    <section class="register">
+        <h1 class="heading">Register Now</h1>
+        <form action="coonect.php" method="post">
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone_number" placeholder="Phone Number" required>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="event_type" placeholder="Event Type (e.g. Wedding, Birthday, etc.)" required>
+                <input type="date" name="event_date" placeholder="Event Date" required>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="event_location" placeholder="Event Location" required>
+            </div>
+            <textarea name="additional_details" placeholder="Additional Details" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Register Now" class="btn">
+        </form>
+    </section>
+</body>
+</html>

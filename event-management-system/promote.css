@@ -1,0 +1,166 @@
+body {
+    background-image: url('images/promote.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* added font family */
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  
+  .home-btn {
+    background-color: #f1c40f; /* updated to secondary color */
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%); /* added to center the button */
+  }
+  
+  .home-btn:hover {
+    background-color: #e67e73; /* updated to a darker orange */
+  }
+  
+  .promote-event-container {
+    height: 600px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* updated to background color */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* added to center the text */
+  border-radius: 5px;
+}
+  
+  .promote-event-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media {
+    margin-bottom: 20px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .email-marketing {
+    margin-bottom: 20px;
+  }
+  
+  #email-template {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    bottom: 500px;
+  }
+  
+  .influencer-marketing {
+    margin-bottom: 20px;
+  }
+  
+  #influencer-list {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  #invite-influencer-button {
+    background-color: #3498db; /* updated to primary color */
+    color: #fff;
+    height: 40px;
+    padding: 5px 10px; /* decreased padding to make the button smaller */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 90px; /* changed to bottom: 20px to position at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* added to center the button horizontally */
+    font-size: 14px; /* decreased font size to make the button smaller */
+  }
+  
+  /* added sharing box styles */
+  .sharing-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* hide by default */
+  }
+  
+  .sharing-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sharing-box li {
+    margin-bottom: 10px;
+  }
+  
+  .sharing-box a {
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sharing-box a:hover {
+    color: #3498db;
+  }
+  
+  /* added js to toggle sharing box */
+  .social-media button {
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .social-media button:hover {
+    background-color: #db4997cf;
+  }
+  
+  .social-media button:active {
+    background-color: #3498db;
+  }
+  
+  .social-media button:focus {
+    outline: none;
+  }
+  
+  .sharing-box.show {
+    display: block;
+  }
